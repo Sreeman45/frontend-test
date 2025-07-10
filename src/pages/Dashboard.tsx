@@ -23,7 +23,7 @@ const Dashboard = () => {
 
           <div className="mb-8">
             <h1 className="text-2xl font-bold text-gray-800">Dashboard Overview</h1>
-            <p className="text-gray-600">Welcome back, John! Here's what's happening today.</p>
+            <p className="text-gray-600">Welcome back! Here's what's happening today.</p>
           </div>
 
  
