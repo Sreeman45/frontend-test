@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 import { Activity, Users, DollarSign, Briefcase, TrendingUp, PieChart } from 'lucide-react';
-import Sidebar from '../components/AppSidebar'; 
+import Sidebar from '../components/Appsidebar'; 
 import Navbar from '../components/navbar';
 import StatCard from '../components/statscard';
 import ChartCard from '../components/chatcard';
