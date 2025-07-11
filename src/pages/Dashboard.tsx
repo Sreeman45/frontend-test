@@ -2,12 +2,12 @@
 import { useState } from 'react';
 
 import { Activity, Users, DollarSign, Briefcase, TrendingUp, PieChart } from 'lucide-react';
-import Sidebar from '@/components/AppSidebar';
-import Navbar from '@/components/navbar';
-import StatCard from '@/components/statscard';
-import ChartCard from '@/components/chatcard';
-import ActivityFeed from '@/components/activity';
-import ProjectsTable from '@/components/projects';
+import Sidebar from '../components/AppSidebar'; 
+import Navbar from '../components/navbar';
+import StatCard from '../components/statscard';
+import ChartCard from '../components/chatcard';
+import ActivityFeed from '../components/activity';
+import ProjectsTable from '../components/projects';
 
 const Dashboard = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
